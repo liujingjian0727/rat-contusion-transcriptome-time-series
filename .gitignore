@@ -1,0 +1,53 @@
+# Raw sequencing
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Alignments
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+
+# Large R objects
+*.RData
+*.RDS
+*.rds
+*.rda
+
+# Office/submission files
+*.docx
+*.xlsx
+*.xls
+*.pptx
+
+# Generated figures
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Logs / temporary / backups
+*.log
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# Analysis outputs
+*_result/
+output/
+outputs/
+results/
+data/
+
+# Submission material
+Scientific_Data_manuscript*
+19_submission_metadata_template.txt
+submission_package_scientific_data/
+pre_submission_backups/

@@ -1,0 +1,30 @@
+Cross-cohort temporal-response concordance analysis
+
+The 2026 cohort and 2021 cohort were not pooled.
+No batch correction was performed between cohorts.
+
+Common independently filtered genes: 16918
+
+For each cohort, each injury time point was compared with
+that cohort's own uninjured Baseline using DESeq2.
+
+Primary cross-cohort similarity metric:
+Spearman correlation between genome-wide Baseline-relative
+log2FoldChange vectors across common genes.
+
+Pearson correlation was retained as a secondary metric.
+
+Shared DEG definition:
+padj < 0.05 and |log2FoldChange| >= 1 in both compared time points.
+
+Shared-DEG direction concordance was calculated as the
+fraction of jointly significant genes with the same
+log2FoldChange sign in the two cohorts.
+
+Best-matching time points are descriptive trajectory
+annotations and are not interpreted as evidence that the
+two injury paradigms are experimentally identical.
+
+The relation between absolute time difference and response
+similarity is descriptive because pairwise matrix cells
+are statistically non-independent.

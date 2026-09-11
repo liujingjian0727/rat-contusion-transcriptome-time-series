@@ -1,0 +1,13 @@
+Scientific Data analysis software environment
+
+R: 4.5.3
+Bioconductor: 3.22
+DESeq2: 1.50.2
+Rsubread: 2.24.0
+vegan: 2.7-5
+ggplot2: 4.0.3
+fastp: 0.23.2
+HISAT2: 2.2.1
+
+Reference genome:
+Rattus norvegicus GRCr8

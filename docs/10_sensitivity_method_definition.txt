@@ -1,0 +1,30 @@
+Step 10 sample-exclusion sensitivity analysis
+
+The Step 02 gene universe was held fixed.
+Genes were not re-filtered after sample exclusion.
+
+This ensures that sensitivity comparisons isolate
+the effect of sample inclusion/exclusion rather than
+changes in the analyzed gene universe.
+
+Primary scenario:
+all 77 samples.
+
+Sensitivity A:
+exclude Step 03 Multi_metric_review samples.
+
+Sensitivity B:
+exclude the previously reviewed raw-QC sample R2h_4.
+
+Sensitivity C:
+exclude the union of the above samples.
+
+For each scenario:
+1. DESeq2 Wald models were refitted.
+2. Automatic Cook's count replacement remained disabled.
+3. Baseline-relative genome-wide log2FC values were recalculated.
+4. Global VST PERMANOVA/PERMDISP was recalculated.
+5. 2026-vs-2021 genome-wide response concordance was recalculated.
+
+Nearest-time cross-cohort comparisons are descriptive.
+They are not treated as exact experimental time equivalents.

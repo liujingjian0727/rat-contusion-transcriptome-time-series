@@ -1,0 +1,28 @@
+2026 temporal specificity annotation
+
+Input genes: 18364
+Input samples: 77
+
+Expression statistic:
+Median TMM.TPM across biological replicates within each sampling stage.
+
+Tau definition:
+Tau = sum(1 - x_i / max(x)) / (n - 1)
+where x_i is the median TMM.TPM at sampling stage i.
+
+SPM definition:
+SPM_i = x_i^2 / sum_j(x_j^2)
+The SPM values across stages sum to 1 for genes with non-zero expression.
+
+Tau threshold: 0.85
+Peak-stage SPM threshold: 0.5
+
+Tau/SPM are descriptive temporal-specificity annotations.
+They are not differential-expression significance tests.
+
+Two annotation systems were generated:
+1. all11stages: Baseline plus 10 post-injury sampling stages.
+2. injury10stages: 10 post-injury sampling stages only.
+
+log2(TPM + 1) was generated for visualization only.
+Tau and SPM were calculated from untransformed median TMM.TPM.
