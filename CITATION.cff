@@ -9,4 +9,5 @@ repository-code: "https://github.com/liujingjian0727/rat-contusion-transcriptome
 url: "https://github.com/liujingjian0727/rat-contusion-transcriptome-time-series"
 license: MIT
 version: "1.0.0"
+doi: 10.5281/zenodo.22709766
 date-released: 2026-09-11
