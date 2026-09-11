@@ -90,3 +90,12 @@ Citation information for the associated Scientific Data Data Descriptor will be 
 ## License
 
 See `LICENSE`.
+
+## Citation and archival
+
+The analysis workflow associated with this repository has been permanently archived in Zenodo as release **v1.0.0**.
+
+**Zenodo DOI:** `10.5281/zenodo.22709766`
+
+If you use this workflow, please cite the archived software release and the associated Scientific Data Data Descriptor when available.
+
