@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository and the associated Scientific Data Data Descriptor when available."
+title: "Rat skeletal-muscle contusion transcriptome time-series analysis workflow"
+type: software
+authors:
+  - family-names: "Liu"
+    given-names: "Jingjian"
+repository-code: "https://github.com/liujingjian0727/rat-contusion-transcriptome-time-series"
+url: "https://github.com/liujingjian0727/rat-contusion-transcriptome-time-series"
+license: MIT
+version: "1.0.0"
+date-released: 2026-09-11
